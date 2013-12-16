@@ -1,0 +1,17 @@
+Source: libgit-repository-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl (>= 5.10.1), ur-system-namespace (>= 1.103)
+Maintainer: Nathaniel Nutter <nnutter@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/Git-Repository/
+
+Package: libgit-repository-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, perl (>= 5.6),
+  ur-system-namespace (>= 1.103)
+Description: Perl interface to Git repositories
+ Perl interface to Git repositories
+ .
+ This description was automagically extracted from the module by dh-make-perl.
